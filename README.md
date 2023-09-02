@@ -4,7 +4,7 @@ This repository consists of 3 folders, as below-
 
 Loan- Consists of react frontend of the LoanFusionX defi application.
 
-Loan_Backend- COnsists of backend of the website in nodejs.
+Loan_Backend- Consists of backend of the website in nodejs.
 
 Smart_Contract- Consists of the smart contract of the defi application.
 
