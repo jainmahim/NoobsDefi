@@ -10,7 +10,7 @@ export default function Register() {
   const [address, setAddress] = useState("");
   const [dueDate, setDueDate] = useState("");
   const [visible, setVisible] = useState("none");
-  const [borrower, setborrower] = useState("");
+  const [borrower, setBorrower] = useState("");
 
  async function handleSubmit() {
     console.log('handle submit');
