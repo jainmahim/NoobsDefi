@@ -6,7 +6,7 @@ Loan- Consists of react frontend of the LoanFusionX defi application.
 
 Loan_Backend- COnsists of backend of the website in nodejs.
 
-SmartContract- Consists of the smart contract of the defi application.
+Smart_Contract- Consists of the smart contract of the defi application.
 
 # Smart Contract
 
