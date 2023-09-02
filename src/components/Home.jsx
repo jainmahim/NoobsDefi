@@ -31,7 +31,7 @@ export default function Home() {
           >
           Lend Money
           </Link>
-          <a href="https://github.com/LoanFusionX/LoanFusionX#readme" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="https://github.com/jainmahim/NoobsDefi#readme" className="text-sm font-semibold leading-6 text-gray-900">
             Learn more <span aria-hidden="true">→</span>
           </a>
         </div>
