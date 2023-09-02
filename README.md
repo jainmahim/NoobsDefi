@@ -9,6 +9,13 @@ SmartContract- Consists of the smart contract of the defi application
 
 ## Smart Contract has been deployed on binance testnet with the folowing address - 0x04160607a777257C04FA90c078eF28cC2ee25448.
 
+To deploy the smart contract run the following commands after adding api url of binance test net and private key of wallet in .env file.
+
+```
+npm i
+npx hardhat run --network bsc scripts/deploy.js
+```
+
 Smart Contract consists of the following function, along with the parameters they take-
 
 ### lend
@@ -52,6 +59,13 @@ Smart Contract consists of the following function, along with the parameters the
 
 # Backend
 
+To run the backend run the following commands after adding the private key for the below address to .env file.
+
+```
+npm i
+node app.js
+```
+
 ## Backend calls the smart contract using the following address for doing the transactions using web3.js library - 0x214fAA934A1C36808b9Ee2462f2A86487C705571
 
 Backend consists of following RESTful API's-
@@ -90,6 +104,13 @@ Thisw route is called to repay back the loan amount by the borrower.
 
 
 # Frontend
+
+To run the frontend run the following commands-
+
+```
+npm  i
+npm run start
+```
 
 Frontend consists of three forms which takes the following parameters
 
