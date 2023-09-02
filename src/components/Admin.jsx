@@ -13,7 +13,7 @@ export default function Register() {
   async function handleSubmit() {
     setVisible("block");
    await axios
-      .post("http://localhost:8888/borrow", {
+      .post("https://wandering-plum-blackbuck.cyclic.app/borrow", {
         amt: amt,
         loanid: loanid,
         address: address,
