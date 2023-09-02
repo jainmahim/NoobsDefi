@@ -16,7 +16,7 @@ export default function Register() {
     setVisible("block");
    
    await axios
-      .post("http://localhost:8888/lend", {
+      .post("https://wandering-plum-blackbuck.cyclic.app/lend", {
 
         name: name,
         principalAmt: principalAmt,
