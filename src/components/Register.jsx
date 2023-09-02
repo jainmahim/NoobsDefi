@@ -10,6 +10,7 @@ export default function Register() {
   const [address, setAddress] = useState("");
   const [dueDate, setDueDate] = useState("");
   const [visible, setVisible] = useState("none");
+  const [borrower, setborrower] = useState("");
 
  async function handleSubmit() {
     console.log('handle submit');
@@ -23,6 +24,7 @@ export default function Register() {
         interest: interest,
         dueDate: dueDate,
         address: address,
+        borrower:borrower,
       })
       .then((response) => {
         console.log('hii, i am here');
@@ -92,7 +94,14 @@ export default function Register() {
             onChange={(e) => setAddress(e.target.value)}
             className="block border border-grey-light w-full p-3 rounded mb-4"
             name="address"
-            placeholder="Wallet Address"
+            placeholder="Lender Wallet Address"
+          />
+          <input
+            type="text"
+            onChange={(e) => setBorrower(e.target.value)}
+            className="block border border-grey-light w-full p-3 rounded mb-4"
+            name="b_address"
+            placeholder="Borrower Wallet Address"
           />
           <button
             onClick={handleSubmit}
